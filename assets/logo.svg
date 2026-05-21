@@ -1,0 +1,8 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BikeDay Brovary logo">
+  <rect width="128" height="128" rx="34" fill="#101820"/>
+  <circle cx="39" cy="78" r="22" stroke="#48E0A4" stroke-width="8"/>
+  <circle cx="89" cy="78" r="22" stroke="#FFB703" stroke-width="8"/>
+  <path d="M39 78L57 48H72L89 78H65L51 61" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M58 48H47" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M73 48L79 38" stroke="#64B5FF" stroke-width="8" stroke-linecap="round"/>
+</svg>
