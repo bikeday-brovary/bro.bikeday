@@ -1,8 +1,10 @@
-<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="BikeDay Brovary logo">
-  <rect width="128" height="128" rx="34" fill="#101820"/>
-  <circle cx="39" cy="78" r="22" stroke="#48E0A4" stroke-width="8"/>
-  <circle cx="89" cy="78" r="22" stroke="#FFB703" stroke-width="8"/>
-  <path d="M39 78L57 48H72L89 78H65L51 61" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M58 48H47" stroke="#F7FBFF" stroke-width="8" stroke-linecap="round"/>
-  <path d="M73 48L79 38" stroke="#64B5FF" stroke-width="8" stroke-linecap="round"/>
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Велодень Бровари">
+  <rect width="128" height="128" rx="30" fill="#FFFCF7"/>
+  <circle cx="39" cy="76" r="23" fill="#76B947" fill-opacity=".18" stroke="#2E2118" stroke-width="7"/>
+  <circle cx="88" cy="76" r="23" fill="#2196E8" fill-opacity=".18" stroke="#2E2118" stroke-width="7"/>
+  <path d="M39 76L56 46H69L88 76H63L51 59" stroke="#2E2118" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M56 46H45" stroke="#2E2118" stroke-width="7" stroke-linecap="round"/>
+  <path d="M70 46H79C89 46 96 53 96 62C96 69 91 74 84 75" stroke="#2E2118" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="63" cy="76" r="6" fill="#FFFCF7" stroke="#2E2118" stroke-width="6"/>
+  <path d="M24 106H104" stroke="#76B947" stroke-width="6" stroke-linecap="round"/>
 </svg>

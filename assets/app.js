@@ -19,23 +19,31 @@ async function copyText(text) {
   return successful;
 }
 
+function setButtonCopiedState(button) {
+  const label = button.querySelector('[data-copy-label]');
+  const target = label || button;
+  const originalText = target.textContent;
+
+  target.textContent = 'Скопійовано ✓';
+  window.setTimeout(() => {
+    target.textContent = originalText;
+  }, 1500);
+}
+
 copyButtons.forEach((button) => {
   button.addEventListener('click', async () => {
     const text = button.dataset.copy;
+    if (!text) return;
 
     try {
       await copyText(text);
       if (statusNode) {
-        statusNode.innerHTML = `Скопійовано: <strong>${text}</strong>`;
+        statusNode.textContent = `Скопійовано: ${text}`;
       }
-      const original = button.textContent;
-      button.textContent = 'Скопійовано ✓';
-      window.setTimeout(() => {
-        button.textContent = original;
-      }, 1400);
+      setButtonCopiedState(button);
     } catch (error) {
       if (statusNode) {
-        statusNode.textContent = `Скопіюй вручну: ${text}`;
+        statusNode.textContent = `Скопіюйте вручну: ${text}`;
       }
     }
   });
