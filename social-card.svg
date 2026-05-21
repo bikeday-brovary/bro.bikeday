@@ -1,0 +1,13 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#101820"/>
+  <circle cx="200" cy="120" r="260" fill="#48E0A4" fill-opacity="0.18"/>
+  <circle cx="980" cy="180" r="300" fill="#FFB703" fill-opacity="0.16"/>
+  <circle cx="330" cy="430" r="82" stroke="#48E0A4" stroke-width="26"/>
+  <circle cx="535" cy="430" r="82" stroke="#FFB703" stroke-width="26"/>
+  <path d="M330 430L405 285H466L535 430H438L380 350" stroke="#F7FBFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M408 285H360" stroke="#F7FBFF" stroke-width="26" stroke-linecap="round"/>
+  <path d="M470 285L497 245" stroke="#64B5FF" stroke-width="26" stroke-linecap="round"/>
+  <text x="660" y="255" fill="#F7FBFF" font-family="Arial, sans-serif" font-size="76" font-weight="900">Велодень</text>
+  <text x="660" y="338" fill="#F7FBFF" font-family="Arial, sans-serif" font-size="76" font-weight="900">Бровари 2026</text>
+  <text x="664" y="420" fill="#48E0A4" font-family="Arial, sans-serif" font-size="36" font-weight="800">@bro.bikeday · #bro_bikeday</text>
+</svg>
