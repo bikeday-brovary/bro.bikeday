@@ -1,43 +1,386 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="uk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Сайт тимчасово недоступний</title>
-  <style>
-    body {
-      margin: 0;
-      min-height: 100vh;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: Arial, sans-serif;
-      background: #111;
-      color: #fff;
-      text-align: center;
-      padding: 24px;
-    }
-
-    .box {
-      max-width: 520px;
-    }
-
-    h1 {
-      font-size: 32px;
-      margin-bottom: 16px;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.5;
-      opacity: 0.85;
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffcf7">
+  <title>Велодень Бровари 2026 — корисна інформація</title>
+  <meta name="description" content="Велодень Бровари 2026: укриття, правила участі, програма, фотоархів, Instagram @bro.bikeday та збір для 48 ОРБ “Тиха ніч”.">
+  <meta property="og:title" content="Велодень Бровари 2026">
+  <meta property="og:description" content="Корисна інформація для учасників: укриття, правила участі, фото, Instagram і збір для 48 ОРБ “Тиха ніч”.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bro-bikeday.pages.dev/2026/">
+  <meta property="og:image" content="https://bro-bikeday.pages.dev/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Велодень Бровари 2026">
+  <meta name="twitter:description" content="Укриття · правила участі · фото · збір · @bro.bikeday · #bro_bikeday">
+  <meta name="twitter:image" content="https://bro-bikeday.pages.dev/assets/social-card.png">
+  <link rel="canonical" href="https://bro-bikeday.pages.dev/2026/">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+  <link rel="preload" href="/assets/hero-2026.webp" as="image" type="image/webp">
+  <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
-  <div class="box">
-    <h1>Сайт тимчасово недоступний</h1>
-    <p>Ми оновлюємо інформацію. Сторінка скоро знову буде доступна.</p>
-  </div>
+  <a class="skip-link" href="#main">До змісту</a>
+
+  <header class="site-header" aria-label="Шапка сайту">
+    <a class="brand" href="/2026/" aria-label="Велодень Бровари 2026">
+      <picture>
+        <source srcset="/assets/logo-lockup.webp" type="image/webp">
+        <img src="/assets/logo-lockup.png" alt="Велодень Бровари" width="860" height="680">
+      </picture>
+    </a>
+
+    <nav class="top-nav" aria-label="Основна навігація">
+      <a href="#shelters">Укриття</a>
+      <a href="#event">Про подію</a>
+      <a href="#program">Програма</a>
+      <a href="#rules">Правила</a>
+      <a href="#donate">Збір</a>
+      <a href="/photos" target="_blank" rel="noopener">Фото</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">BikeDay Brovary · 2026</p>
+        <h1 id="hero-title">Велодень Бровари 2026</h1>
+        <p class="lead">
+          Відроджуємо міську традицію після 2019 року: велозаїзд, велоспільнота,
+          безпечний рух, любов до Броварів і підтримка українських військових.
+        </p>
+
+        <div class="hero-actions" aria-label="Швидкі дії">
+          <a class="button button-alert" href="#shelters">Укриття поруч</a>
+          <a class="button button-primary" href="/donate" target="_blank" rel="noopener">Підтримати збір</a>
+          <a class="button button-secondary" href="/photos" target="_blank" rel="noopener">Фотоархів</a>
+          <a class="button button-ghost" href="/ig" target="_blank" rel="noopener">Instagram</a>
+        </div>
+
+        <p class="microcopy" id="copy-status">Хештег події: <strong>#bro_bikeday</strong></p>
+      </div>
+
+      <figure class="hero-visual" aria-label="Дизайн Велодня Бровари 2026">
+        <picture>
+          <source srcset="/assets/hero-2026.webp" type="image/webp">
+          <img src="/assets/hero-2026.png" alt="Ілюстрація Велодень Бровари 2026 з символікою Броварів, велосипедом, прапором України та хештегом #bro_bikeday" width="1320" height="881">
+        </picture>
+      </figure>
+    </section>
+
+    <section class="quick-links section-shell" id="links" aria-label="Основні посилання">
+      <a class="link-card link-card-safety" href="#shelters">
+        <span class="card-icon" aria-hidden="true">!</span>
+        <strong>Укриття поруч</strong>
+        <small>Погоджений список найближчих безпечних місць</small>
+      </a>
+
+      <a class="link-card link-card-donate" href="/donate" target="_blank" rel="noopener">
+        <span class="card-icon" aria-hidden="true">₴</span>
+        <strong>Підтримати «Тиху ніч»</strong>
+        <small>Банка mono для збору на потреби 48 ОРБ</small>
+      </a>
+
+      <a class="link-card link-card-photos" href="/photos" target="_blank" rel="noopener">
+        <span class="card-icon" aria-hidden="true">▣</span>
+        <strong>Фотоархів</strong>
+        <small>Фото 2018 і 2019 років; згодом — фото 2026</small>
+      </a>
+
+      <a class="link-card link-card-instagram" href="/ig" target="_blank" rel="noopener">
+        <span class="card-icon" aria-hidden="true">◎</span>
+        <strong>Instagram</strong>
+        <small>@bro.bikeday — новини, сторіс і фотозвіт</small>
+      </a>
+
+      <button class="link-card link-card-button" type="button" data-copy="#bro_bikeday">
+        <span class="card-icon" aria-hidden="true">#</span>
+        <strong>#bro_bikeday</strong>
+        <small data-copy-label>Натисніть, щоб скопіювати хештег</small>
+      </button>
+    </section>
+
+    <section class="notice section-shell" id="safety" aria-labelledby="safety-title">
+      <div class="section-heading">
+        <p class="eyebrow">Безпека</p>
+        <h2 id="safety-title">План дій під час повітряної тривоги</h2>
+        <p>
+          У разі оголошення повітряної тривоги захід призупиняється. Зберігайте спокій,
+          не панікуйте та виконуйте вказівки організаторів, маршалів і відповідальних служб.
+        </p>
+      </div>
+
+      <div class="notice-grid" aria-label="Дії під час повітряної тривоги">
+        <article class="notice-card">
+          <span class="info-number">01</span>
+          <h3>Якщо тривога до старту</h3>
+          <p>Колона не формується і рух не починається. Учасники організовано переходять до найближчих укриттів.</p>
+        </article>
+
+        <article class="notice-card">
+          <span class="info-number">02</span>
+          <h3>Якщо тривога під час руху</h3>
+          <p>Учасники виконують команди супроводу, поліції, маршалів та організаторів. Рух припиняється за вказівками відповідальних служб.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="shelters section-shell" id="shelters" aria-labelledby="shelters-title">
+      <div class="section-heading">
+        <p class="eyebrow">Найближчі укриття</p>
+        <h2 id="shelters-title">Куди перейти в разі тривоги</h2>
+        <p>Погоджений список укриттів біля локації заходу.</p>
+      </div>
+
+      <div class="shelter-list" role="list">
+        <article class="shelter-card" role="listitem">
+          <span class="shelter-pin" aria-hidden="true">1</span>
+          <div>
+            <h3>Броварський ліцей №7</h3>
+            <p>вул. Героїв України, 23-А</p>
+            <button class="inline-copy" type="button" data-copy="Броварський ліцей №7, вул. Героїв України, 23-А">
+              <span data-copy-label>Скопіювати адресу</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="shelter-card" role="listitem">
+          <span class="shelter-pin" aria-hidden="true">2</span>
+          <div>
+            <h3>Міський культурний центр</h3>
+            <p>бульвар Незалежності, 4</p>
+            <button class="inline-copy" type="button" data-copy="Міський культурний центр, бульвар Незалежності, 4">
+              <span data-copy-label>Скопіювати адресу</span>
+            </button>
+          </div>
+        </article>
+
+        <article class="shelter-card" role="listitem">
+          <span class="shelter-pin" aria-hidden="true">3</span>
+          <div>
+            <h3>Державний ПТНЗ «Броварський професійний ліцей»</h3>
+            <p>бульвар Незалежності, 14-Б</p>
+            <button class="inline-copy" type="button" data-copy="Державний ПТНЗ «Броварський професійний ліцей», бульвар Незалежності, 14-Б">
+              <span data-copy-label>Скопіювати адресу</span>
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="event section-shell" id="event" aria-labelledby="event-title">
+      <div class="section-heading">
+        <p class="eyebrow">Про подію</p>
+        <h2 id="event-title">Велодень, який повертає міську традицію</h2>
+        <p>
+          Велодень Бровари 2026 — це міський велозахід для розвитку велосипедної культури,
+          об’єднання велоспільноти, популяризації активного способу життя та безпечного міського велоруху.
+        </p>
+      </div>
+
+      <div class="event-grid" aria-label="Місія та мета події">
+        <article class="info-card">
+          <span class="info-number">01</span>
+          <h3>Місія</h3>
+          <p>Показати, що велосипед — це не лише спорт чи розвага, а повноцінна частина сучасного міського життя.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-number">02</span>
+          <h3>Мета</h3>
+          <p>Зробити Велодень щорічною подією, яка об’єднує дітей, дорослих, родини, спортсменів, аматорів і велоспільноти.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-number">03</span>
+          <h3>Цінності</h3>
+          <p>Рух, єдність, безпека, відповідальність, взаємоповага на дорозі та любов до Броварів.</p>
+        </article>
+
+        <article class="info-card">
+          <span class="info-number">04</span>
+          <h3>Формат</h3>
+          <p>Це не перегони. Це спільний міський велозаїзд, у якому головне — організованість, безпека й гарний настрій.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline-section section-shell" id="program" aria-labelledby="program-title">
+      <div class="section-heading">
+        <p class="eyebrow">Програма</p>
+        <h2 id="program-title">Що відбувається на локації</h2>
+        <p>Короткий таймінг для учасників і гостей, які відкривають сайт уже під час заходу.</p>
+      </div>
+
+      <div class="timeline" aria-label="Таймінг заходу">
+        <article class="timeline-item">
+          <time>09:05–09:35</time>
+          <div>
+            <h3>Збір учасників</h3>
+            <p>Реєстрація, підтвердження онлайн-реєстрації, видача прапорців і брелоків, фотозона та техперевірка велосипедів.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>09:35–09:40</time>
+          <div>
+            <h3>Безпековий блок</h3>
+            <p>План дій під час повітряної тривоги та нагадування про найближчі укриття.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>09:40</time>
+          <div>
+            <h3>Урочисте відкриття</h3>
+            <p>Подяка захисникам і захисницям, хвилина мовчання, відкриття Велодня та місія події.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>10:10</time>
+          <div>
+            <h3>Колективне фото</h3>
+            <p>Спільне фото учасників Велодня Бровари 2026.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>10:15–10:28</time>
+          <div>
+            <h3>Формування колони та інструктаж</h3>
+            <p>Маршали допомагають формувати колону, після чого проводиться короткий інструктаж із техніки безпеки.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>10:30</time>
+          <div>
+            <h3>Старт велозаїзду</h3>
+            <p>Колона вирушає організовано, спокійно та з дотриманням вказівок супроводу.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <time>≈ 11:00</time>
+          <div>
+            <h3>Повернення</h3>
+            <p>Зустріч учасників, вода, фотозона, подяки, нагадування про фото, Instagram і збір.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="rules section-shell" id="rules" aria-labelledby="rules-title">
+      <div class="section-heading">
+        <p class="eyebrow">Корисна інформація</p>
+        <h2 id="rules-title">Правила участі та безпека</h2>
+        <p>Найважливіше для тих, хто вже на заході або готується до старту колони.</p>
+      </div>
+
+      <div class="rules-grid">
+        <article class="rule-card">
+          <h3>Правила участі</h3>
+          <ul>
+            <li>Велодень — не змагання на швидкість.</li>
+            <li>Рухаємося організовано, спокійно та уважно.</li>
+            <li>Не обганяємо супровід і не виїжджаємо самостійно з колони.</li>
+            <li>Тримаємо безпечну дистанцію та поважаємо інших учасників.</li>
+          </ul>
+        </article>
+
+        <article class="rule-card">
+          <h3>Діти та родини</h3>
+          <ul>
+            <li>Діти беруть участь у супроводі дорослих.</li>
+            <li>Батьків просимо бути поруч із дітьми протягом усього заїзду.</li>
+            <li>У разі потреби звертайтеся до організаторів або маршалів.</li>
+          </ul>
+        </article>
+
+        <article class="rule-card">
+          <h3>Супровід і допомога</h3>
+          <ul>
+            <li>На заході залучені поліція, швидка допомога, Moto Help, технічна підтримка та маршали.</li>
+            <li>Маршали у жилетках допомагають формувати колону й підтримувати порядок.</li>
+            <li>За технічної проблеми з велосипедом звертайтеся до техпідтримки або маршалів.</li>
+          </ul>
+        </article>
+
+        <article class="rule-card">
+          <h3>Фото та NFC-брелок</h3>
+          <ul>
+            <li>На локації працює фотозона.</li>
+            <li>Фото з події з’являться на сайті та в Instagram за кілька днів.</li>
+            <li>Збережіть NFC-брелок: він веде на цю сторінку з актуальними посиланнями.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="feature section-shell" id="photos" aria-labelledby="photos-title">
+      <div>
+        <p class="eyebrow">Фото</p>
+        <h2 id="photos-title">Фотоархів Велодня</h2>
+        <p>
+          У папці вже доступні фото з Велодня 2018 та 2019 років. Після події тут також з’являться фото Велодня Бровари 2026.
+        </p>
+      </div>
+      <a class="button button-primary" href="/photos" target="_blank" rel="noopener">Відкрити фотоархів</a>
+    </section>
+
+    <section class="donate section-shell" id="donate" aria-labelledby="donate-title">
+      <div class="donate-copy">
+        <p class="eyebrow">Благодійний збір</p>
+        <h2 id="donate-title">Підтримай 48 ОРБ «Тиха ніч»</h2>
+        <p>
+          Під час Велодня триває збір на потреби Збройних Сил України — для 48-го окремого розвідувального батальйону «Тиха ніч».
+          На локації також є скринька для збору коштів від БО «Благодійний фонд “Юнайтед24.Броварщина”».
+        </p>
+        <p>
+          Кожен донат — це внесок у доукомплектування техніки, яка допомагає військовим працювати безпечніше й ефективніше.
+        </p>
+        <div class="donate-actions">
+          <a class="button button-primary" href="/donate" target="_blank" rel="noopener">Переказати в банку</a>
+          <button class="button button-ghost" type="button" data-copy="https://send.monobank.ua/jar/7V6PwAWWWL">
+            <span data-copy-label>Скопіювати посилання</span>
+          </button>
+        </div>
+      </div>
+
+      <figure class="donate-visual">
+        <img src="/assets/donate-banner.jpg" alt="Збір на доукомплектування НРК для 48 ОРБ Тиха ніч" width="1280" height="853" loading="lazy">
+      </figure>
+
+      <div class="needs-card" aria-labelledby="needs-title">
+        <h3 id="needs-title">Нагальні потреби</h3>
+        <ul class="needs-list">
+          <li><span>модуль Jarvis</span><strong>50 000 грн</strong></li>
+          <li><span>пульт управління TX-12 або «боксер»</span><strong>12 000 грн</strong></li>
+          <li><span>компресор 2.2 кВт</span><strong>13 000 грн</strong></li>
+          <li><span>камера DAHUA DH-IPC HFW12305</span><strong>4 000 грн</strong></li>
+          <li><span>камера для двостороннього зв’язку</span><strong>3 612 грн</strong></li>
+          <li><span>ширококутна камера</span><strong>4 739 грн</strong></li>
+          <li><span>тумблер і перетворювачі для техніки</span><strong>від 1 500 грн</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hashtag section-shell" aria-label="Хештег події">
+      <p>Позначайте фото, сторіс і дописи:</p>
+      <button class="hashtag-button" type="button" data-copy="#bro_bikeday">
+        <span>#bro_bikeday</span>
+        <small data-copy-label>скопіювати</small>
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <p>Велодень Бровари 2026</p>
+    <p>
+      <a href="/ig" target="_blank" rel="noopener">@bro.bikeday</a>
+      · <a href="/photos" target="_blank" rel="noopener">Фотоархів</a>
+      · <a href="/donate" target="_blank" rel="noopener">Підтримати збір</a>
+      · <button class="text-button" type="button" data-copy="#bro_bikeday">#bro_bikeday</button>
+    </p>
+  </footer>
+
+  <script src="/assets/app.js" defer></script>
 </body>
 </html>

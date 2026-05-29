@@ -1,38 +1,28 @@
 # Велодень Бровари 2026
 
-Оновлена статична сторінка для події **Велодень Бровари 2026 / BikeDay Brovary 2026**.
+Фінальна статична версія сайту для **Велодень Бровари 2026 / BikeDay Brovary 2026**.
+
+## Що оновлено
+
+- Прибрано окремий блок маршруту.
+- Додано сторінкову логіку “Корисна інформація”: укриття, дії під час повітряної тривоги, правила участі, супровід, техпідтримка, фото та NFC-брелок.
+- Додано погоджений список найближчих укриттів.
+- Оновлено блок “Про подію” з місією та метою Велодня.
+- Оновлено блок збору для 48 ОРБ “Тиха ніч”.
+- Додано актуальне посилання на банку mono.
+- Оновлено посилання на фотоархів Google Drive.
+- Додано банер збору до assets.
 
 ## Основні посилання
 
 - Сторінка події: `/2026/`
 - Instagram-редирект: `/ig`
 - Instagram: `https://www.instagram.com/bro.bikeday/`
-- Фото з події: `/photos`
-- Google Photos: `https://photos.app.goo.gl/9rw6yRj3SMPvsCuWA`
-- Донати: `/donate` — тимчасово веде на блок “Банка для донатів”
+- Фотоархів: `/photos`
+- Google Drive фотоархів: `https://drive.google.com/drive/folders/1B7soGmsWkxvO0mDXdNjNAS7wS2l6y1go?usp=share_link`
+- Донати: `/donate`
+- Банка mono: `https://send.monobank.ua/jar/7V6PwAWWWL`
 - Хештег: `#bro_bikeday`
-
-## Як додати посилання на банку
-
-Коли буде готове посилання на банку:
-
-1. У файлі `_redirects` замінити рядок:
-
-   ```txt
-   /donate   /2026/#donate 302
-   ```
-
-   на:
-
-   ```txt
-   /donate   https://посилання-на-банку 302
-   ```
-
-2. У файлі `2026/index.html` у блоці `id="donate"` замінити вимкнену кнопку на посилання:
-
-   ```html
-   <a class="button button-primary" href="/donate">Підтримати донатом</a>
-   ```
 
 ## Cloudflare Pages
 
@@ -72,4 +62,7 @@
   hero-2026.webp
   social-card.png
   apple-touch-icon.png
+  donate-banner.jpg
+  needs-list.jpg
+  donate-post.jpg
 ```

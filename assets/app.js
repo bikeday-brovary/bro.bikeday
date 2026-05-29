@@ -12,6 +12,7 @@ async function copyText(text) {
   textarea.setAttribute('readonly', '');
   textarea.style.position = 'fixed';
   textarea.style.opacity = '0';
+  textarea.style.pointerEvents = 'none';
   document.body.appendChild(textarea);
   textarea.select();
   const successful = document.execCommand('copy');
